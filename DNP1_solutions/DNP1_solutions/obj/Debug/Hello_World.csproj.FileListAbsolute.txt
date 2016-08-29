@@ -1,0 +1,7 @@
+K:\C#_.net_asp.net\DNP1_solutions\DNP1_solutions\bin\Debug\DNP1_solutions.exe.config
+K:\C#_.net_asp.net\DNP1_solutions\DNP1_solutions\bin\Debug\DNP1_solutions.exe
+K:\C#_.net_asp.net\DNP1_solutions\DNP1_solutions\bin\Debug\DNP1_solutions.pdb
+K:\C#_.net_asp.net\DNP1_solutions\DNP1_solutions\bin\Debug\Test.dll
+K:\C#_.net_asp.net\DNP1_solutions\DNP1_solutions\bin\Debug\Test.pdb
+K:\C#_.net_asp.net\DNP1_solutions\DNP1_solutions\obj\Debug\DNP1_solutions.exe
+K:\C#_.net_asp.net\DNP1_solutions\DNP1_solutions\obj\Debug\DNP1_solutions.pdb

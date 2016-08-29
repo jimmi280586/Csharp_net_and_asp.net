@@ -1,0 +1,5 @@
+K:\C#_.net_asp.net\DNP1_solutions\MathLib\bin\Debug\MathLib.dll
+K:\C#_.net_asp.net\DNP1_solutions\MathLib\bin\Debug\MathLib.pdb
+K:\C#_.net_asp.net\DNP1_solutions\MathLib\obj\Debug\MathLib.dll
+K:\C#_.net_asp.net\DNP1_solutions\MathLib\obj\Debug\MathLib.pdb
+K:\C#_.net_asp.net\DNP1_solutions\MathLib\obj\Debug\MathLib.csprojResolveAssemblyReference.cache

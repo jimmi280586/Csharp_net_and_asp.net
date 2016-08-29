@@ -1,0 +1,5 @@
+K:\C#_.net_asp.net\DNP1_solutions\Exercise1_library\bin\Debug\Exercise1_library.dll
+K:\C#_.net_asp.net\DNP1_solutions\Exercise1_library\bin\Debug\Exercise1_library.pdb
+K:\C#_.net_asp.net\DNP1_solutions\Exercise1_library\obj\Debug\Exercise1_library.dll
+K:\C#_.net_asp.net\DNP1_solutions\Exercise1_library\obj\Debug\Exercise1_library.pdb
+K:\C#_.net_asp.net\DNP1_solutions\Exercise1_library\obj\Debug\Exercise1_library.csprojResolveAssemblyReference.cache
