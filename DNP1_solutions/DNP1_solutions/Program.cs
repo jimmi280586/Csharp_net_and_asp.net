@@ -13,7 +13,7 @@ namespace Hello_World
         {
             Console.WriteLine("Hello, World");
 
-            Test.Class1 a = new Test.Class1();
+            Test.TestMain a = new Test.TestMain();
             string b = a.testMe();
             Console.WriteLine(b);
 

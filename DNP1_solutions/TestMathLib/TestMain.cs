@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestMathLib
 {
-    class Program
+    class TestMain
     {
         static void Main(string[] args)
         {

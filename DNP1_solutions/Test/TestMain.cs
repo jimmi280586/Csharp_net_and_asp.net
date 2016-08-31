@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    public class Class1
+    public class TestMain
     {
         public string testMe()
         {

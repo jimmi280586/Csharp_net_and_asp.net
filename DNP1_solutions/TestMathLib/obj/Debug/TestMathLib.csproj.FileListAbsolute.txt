@@ -6,3 +6,6 @@ K:\C#_.net_asp.net\DNP1_solutions\TestMathLib\bin\Debug\MathLib.pdb
 K:\C#_.net_asp.net\DNP1_solutions\TestMathLib\obj\Debug\TestMathLib.csprojResolveAssemblyReference.cache
 K:\C#_.net_asp.net\DNP1_solutions\TestMathLib\obj\Debug\TestMathLib.exe
 K:\C#_.net_asp.net\DNP1_solutions\TestMathLib\obj\Debug\TestMathLib.pdb
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestMathLib\bin\Debug\TestMathLib.exe.config
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestMathLib\obj\Debug\TestMathLib.exe
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestMathLib\obj\Debug\TestMathLib.pdb

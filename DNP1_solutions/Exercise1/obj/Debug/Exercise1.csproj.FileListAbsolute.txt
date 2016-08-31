@@ -6,3 +6,6 @@ K:\C#_.net_asp.net\DNP1_solutions\Exercise1\bin\Debug\Exercise1_library.pdb
 K:\C#_.net_asp.net\DNP1_solutions\Exercise1\obj\Debug\Exercise1.csprojResolveAssemblyReference.cache
 K:\C#_.net_asp.net\DNP1_solutions\Exercise1\obj\Debug\Exercise1.exe
 K:\C#_.net_asp.net\DNP1_solutions\Exercise1\obj\Debug\Exercise1.pdb
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Exercise1\bin\Debug\Exercise1.exe.config
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Exercise1\obj\Debug\Exercise1.exe
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Exercise1\obj\Debug\Exercise1.pdb
