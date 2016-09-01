@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Polymorphism
+namespace PolymorphismStudent
 {
    public class FullTimeEmployee: Employee 
     {
@@ -19,5 +19,10 @@ namespace Polymorphism
             return this.monthlySalary;
         }
 
+   
+        public override string ToString()
+        {
+            return base.getName() + ", " + this.monthlySalary;
+        }
     }
 }

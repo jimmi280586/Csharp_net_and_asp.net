@@ -1,5 +1,4 @@
 K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Polymorphism\bin\Debug\Polymorphism.dll
 K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Polymorphism\bin\Debug\Polymorphism.pdb
-K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Polymorphism\obj\Debug\Polymorphism.csprojResolveAssemblyReference.cache
 K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Polymorphism\obj\Debug\Polymorphism.dll
 K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Polymorphism\obj\Debug\Polymorphism.pdb

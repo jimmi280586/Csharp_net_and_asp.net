@@ -1,0 +1,4 @@
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Test\bin\Debug\Test.dll
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Test\bin\Debug\Test.pdb
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Test\obj\Debug\Test.dll
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Test\obj\Debug\Test.pdb

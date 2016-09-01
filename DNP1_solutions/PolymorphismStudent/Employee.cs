@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Polymorphism
+namespace PolymorphismStudent
 {
     public abstract class Employee
     {
@@ -15,6 +15,17 @@ namespace Polymorphism
             this.name = name;
         }
 
+        public string getName()
+        {
+            return this.name;
+        }
+
+  
         public abstract double getMonthSalary();
+
+        public override abstract string ToString();
+        
+
+        
     }
 }

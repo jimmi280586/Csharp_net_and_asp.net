@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Polymorphism
+namespace PolymorphismStudent
 {
     public class Company
     {
@@ -26,7 +26,7 @@ namespace Polymorphism
             return totalSalary;
         }
 
-        public void employNewEmployee(string name, double monthlySalary, double hourlyWage, int hoursPerMonth, int employeeType)
+        public void employNewEmployee(string name, double monthlySalary, double hourlyWage, int hoursPerMonth, int employeeType, int studentYear)
         {
             if(index == employs.GetLength(0))
             {
@@ -45,10 +45,21 @@ namespace Polymorphism
             }
             if(employeeType == 1)
             {
-                employs[index] = new PartTimeEmployee(name, hourlyWage, hoursPerMonth);
+                employs[index] = new PartTimeEmployee(name, hourlyWage, hoursPerMonth, studentYear);
                 index++;
             }
         }
+
+        public Employee getEmployee(string name)
+        {
+            int i = 0;
+            while(!(employs[i].getName().Equals(name)))
+            {
+                i++;
+            }
+            return employs[i];
+        }
+
 
         private void changeMemorySize()
         {

@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPolymorphism", "TestPol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismStudent", "PolymorphismStudent\PolymorphismStudent.csproj", "{F5DEF9E8-A8C0-4FC8-A462-00301CCC12ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPolymorphismStudent", "TestPolymorphismStudent\TestPolymorphismStudent.csproj", "{198A59AC-A5B0-4832-AB68-04A228B02275}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.csproj", "{128739E0-1C0E-4D2E-8975-B94B23305720}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,10 +65,10 @@ Global
 		{F5DEF9E8-A8C0-4FC8-A462-00301CCC12ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5DEF9E8-A8C0-4FC8-A462-00301CCC12ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5DEF9E8-A8C0-4FC8-A462-00301CCC12ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{198A59AC-A5B0-4832-AB68-04A228B02275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{198A59AC-A5B0-4832-AB68-04A228B02275}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{198A59AC-A5B0-4832-AB68-04A228B02275}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{198A59AC-A5B0-4832-AB68-04A228B02275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128739E0-1C0E-4D2E-8975-B94B23305720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128739E0-1C0E-4D2E-8975-B94B23305720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128739E0-1C0E-4D2E-8975-B94B23305720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128739E0-1C0E-4D2E-8975-B94B23305720}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

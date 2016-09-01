@@ -40,9 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PartTimeStudent.cs" />
     <Compile Include="Company.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="FullTimeEmployee.cs" />
+    <Compile Include="IStudent.cs" />
     <Compile Include="PartTimeEmployee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

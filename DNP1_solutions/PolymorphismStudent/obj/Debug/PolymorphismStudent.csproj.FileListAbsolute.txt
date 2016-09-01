@@ -1,0 +1,4 @@
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\PolymorphismStudent\bin\Debug\PolymorphismStudent.dll
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\PolymorphismStudent\bin\Debug\PolymorphismStudent.pdb
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\PolymorphismStudent\obj\Debug\PolymorphismStudent.dll
+K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\PolymorphismStudent\obj\Debug\PolymorphismStudent.pdb
