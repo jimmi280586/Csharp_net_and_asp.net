@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polymorphism
 {
-   public class FullTimeEmployee: Employee 
+   class FullTimeEmployee: Employee 
     {
         private double monthlySalary;
         public FullTimeEmployee(string name, double monthlySalary) :base(name)

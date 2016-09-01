@@ -19,7 +19,7 @@ namespace Polymorphism
 
         public override double getMonthSalary()
         {
-            return this.hoursPerMonth * this.hourlyWage;
+            return (this.hoursPerMonth * this.hourlyWage);
 
         }
     }

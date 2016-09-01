@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace Polymorphism
 {
-    public abstract class Employee
+    abstract class Employee
     {
         private string name;
-
+        public string Name
+        {
+            get { return name; }
+            set { this.name = value; }
+        }
         public Employee(string name)
         {
             this.name = name;

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Polymorphism
 {
-    public class Company
+    class Company
     {
+        private List<Employee> employees = new List<Employee>();
         private Employee[] employs;
         private int index = 0;
 
