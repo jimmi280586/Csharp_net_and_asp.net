@@ -6,3 +6,6 @@ K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestPolymorphism\bin\De
 K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestPolymorphism\obj\Debug\TestPolymorphism.csprojResolveAssemblyReference.cache
 K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestPolymorphism\obj\Debug\TestPolymorphism.exe
 K:\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestPolymorphism\obj\Debug\TestPolymorphism.pdb
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestPolymorphism\bin\Debug\TestPolymorphism.exe.config
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestPolymorphism\obj\Debug\TestPolymorphism.exe
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestPolymorphism\obj\Debug\TestPolymorphism.pdb

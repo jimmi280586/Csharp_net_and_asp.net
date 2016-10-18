@@ -1,0 +1,8 @@
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestThreading\bin\Debug\TestThreading.exe.config
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestThreading\obj\Debug\TestThreading.csprojResolveAssemblyReference.cache
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestThreading\bin\Debug\TestThreading.exe
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestThreading\bin\Debug\TestThreading.pdb
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestThreading\bin\Debug\Threading.dll
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestThreading\bin\Debug\Threading.pdb
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestThreading\obj\Debug\TestThreading.exe
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestThreading\obj\Debug\TestThreading.pdb

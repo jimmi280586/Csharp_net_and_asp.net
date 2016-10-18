@@ -1,0 +1,27 @@
+C:\Uddannelse\DNP1\#3 The C# programming language\Code\CSharpDemos\IndexerExample\bin\Debug\IndexerExample.exe
+C:\Uddannelse\DNP1\#3 The C# programming language\Code\CSharpDemos\IndexerExample\bin\Debug\IndexerExample.pdb
+C:\Uddannelse\DNP1\#3 The C# programming language\Code\CSharpDemos\IndexerExample\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Uddannelse\DNP1\#3 The C# programming language\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.exe
+C:\Uddannelse\DNP1\#3 The C# programming language\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.pdb
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.exe
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.pdb
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson3\Code\CSharpDemos\IndexerExample\bin\Debug\IndexerExample.exe
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson3\Code\CSharpDemos\IndexerExample\bin\Debug\IndexerExample.pdb
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.exe
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.pdb
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\IndexerExample\bin\Debug\IndexerExample.exe
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\IndexerExample\bin\Debug\IndexerExample.pdb
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.csprojResolveAssemblyReference.cache
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.exe
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.pdb
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson3\Code\CSharpDemos\IndexerExample\bin\Debug\IndexerExample.exe
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson3\Code\CSharpDemos\IndexerExample\bin\Debug\IndexerExample.pdb
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.csprojResolveAssemblyReference.cache
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.exe
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.pdb
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson3\Code\CSharpDemos\IndexerExample\bin\Debug\IndexerExample.exe
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson3\Code\CSharpDemos\IndexerExample\bin\Debug\IndexerExample.pdb
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.csprojResolveAssemblyReference.cache
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.exe
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson3\Code\CSharpDemos\IndexerExample\obj\x86\Debug\IndexerExample.pdb

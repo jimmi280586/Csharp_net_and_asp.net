@@ -1,0 +1,2 @@
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestSerialization\bin\Debug\TestSerialization.exe.config
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestSerialization\obj\Debug\TestSerialization.csprojResolveAssemblyReference.cache

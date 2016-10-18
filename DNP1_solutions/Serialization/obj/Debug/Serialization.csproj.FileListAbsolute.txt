@@ -1,0 +1,4 @@
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Serialization\bin\Debug\Serialization.dll
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Serialization\bin\Debug\Serialization.pdb
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Serialization\obj\Debug\Serialization.dll
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Serialization\obj\Debug\Serialization.pdb

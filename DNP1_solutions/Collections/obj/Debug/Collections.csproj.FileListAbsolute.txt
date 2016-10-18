@@ -1,0 +1,4 @@
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Collections\bin\Debug\Collections.dll
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Collections\bin\Debug\Collections.pdb
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Collections\obj\Debug\Collections.dll
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\Collections\obj\Debug\Collections.pdb

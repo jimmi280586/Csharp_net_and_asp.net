@@ -1,0 +1,3 @@
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

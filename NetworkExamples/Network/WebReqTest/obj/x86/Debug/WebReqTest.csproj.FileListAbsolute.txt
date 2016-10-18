@@ -1,0 +1,52 @@
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\WebReqTest\bin\Debug\WebReqTest.exe
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\WebReqTest\bin\Debug\WebReqTest.pdb
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\WebReqTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.Form1.resources
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.Properties.Resources.resources
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\WebReqTest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\WebReqTest\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.exe
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.pdb
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.exe
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.pdb
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson4\Code\Network\WebReqTest\bin\Debug\WebReqTest.exe
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson4\Code\Network\WebReqTest\bin\Debug\WebReqTest.pdb
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.Form1.resources
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.Properties.Resources.resources
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.exe
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.pdb
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson4\Code\Network\WebReqTest\bin\Debug\WebReqTest.exe
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson4\Code\Network\WebReqTest\bin\Debug\WebReqTest.pdb
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.csprojResolveAssemblyReference.cache
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.Form1.resources
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.Properties.Resources.resources
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.csproj.GenerateResource.Cache
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.exe
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.pdb
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson4\Code\Network\WebReqTest\bin\Debug\WebReqTest.exe
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson4\Code\Network\WebReqTest\bin\Debug\WebReqTest.pdb
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.csprojResolveAssemblyReference.cache
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.Form1.resources
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.Properties.Resources.resources
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.csproj.GenerateResource.Cache
+C:\Users\kf\SkyDrive\VIA\DNPI1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.exe
+C:\Users\kf\SkyDrive\VIA\DNPI1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.pdb
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.exe
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.pdb
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\bin\Debug\WebReqTest.exe
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\bin\Debug\WebReqTest.pdb
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.csprojResolveAssemblyReference.cache
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.Form1.resources
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.Properties.Resources.resources
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.csproj.GenerateResource.Cache
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.exe
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.pdb
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\bin\Debug\WebReqTest.exe
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\bin\Debug\WebReqTest.pdb
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.csprojResolveAssemblyReference.cache
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.Form1.resources
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.Properties.Resources.resources
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson4\Code\Network\WebReqTest\obj\x86\Debug\WebReqTest.csproj.GenerateResource.Cache

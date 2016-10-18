@@ -1,0 +1,5 @@
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestGenerics\bin\Debug\TestGenerics.exe.config
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestGenerics\bin\Debug\TestGenerics.exe
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestGenerics\bin\Debug\TestGenerics.pdb
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestGenerics\obj\Debug\TestGenerics.exe
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestGenerics\obj\Debug\TestGenerics.pdb

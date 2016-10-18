@@ -1,0 +1,7 @@
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\IndexerExsampleBad\bin\Debug\IndexerExsampleBad.exe
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\IndexerExsampleBad\bin\Debug\IndexerExsampleBad.pdb
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\IndexerExsampleBad\obj\x86\Debug\IndexerExampleBad.csprojResolveAssemblyReference.cache
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\IndexerExsampleBad\obj\x86\Debug\IndexerExsampleBad.exe
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\IndexerExsampleBad\obj\x86\Debug\IndexerExsampleBad.pdb
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson3\Code\CSharpDemos\IndexerExsampleBad\obj\x86\Debug\IndexerExsampleBad.exe
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson3\Code\CSharpDemos\IndexerExsampleBad\obj\x86\Debug\IndexerExsampleBad.pdb

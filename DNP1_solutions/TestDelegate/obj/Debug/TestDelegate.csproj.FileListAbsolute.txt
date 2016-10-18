@@ -1,0 +1,5 @@
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestDelegate\bin\Debug\TestDelegate.exe.config
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestDelegate\bin\Debug\TestDelegate.exe
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestDelegate\bin\Debug\TestDelegate.pdb
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestDelegate\obj\Debug\TestDelegate.exe
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestDelegate\obj\Debug\TestDelegate.pdb

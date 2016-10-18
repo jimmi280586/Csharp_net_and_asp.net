@@ -1,0 +1,20 @@
+C:\Uddannelse\DNP1\#3 The C# programming language\Code\CSharpDemos\DataClasses\obj\Debug\ResolveAssemblyReference.cache
+C:\Uddannelse\DNP1\#3 The C# programming language\Code\CSharpDemos\DataClasses\bin\Debug\DataClasses.dll
+C:\Uddannelse\DNP1\#3 The C# programming language\Code\CSharpDemos\DataClasses\bin\Debug\DataClasses.pdb
+C:\Uddannelse\DNP1\#3 The C# programming language\Code\CSharpDemos\DataClasses\obj\Debug\DataClasses.dll
+C:\Uddannelse\DNP1\#3 The C# programming language\Code\CSharpDemos\DataClasses\obj\Debug\DataClasses.pdb
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson3\Code\CSharpDemos\DataClasses\bin\Debug\DataClasses.dll
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson3\Code\CSharpDemos\DataClasses\bin\Debug\DataClasses.pdb
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson3\Code\CSharpDemos\DataClasses\obj\Debug\ResolveAssemblyReference.cache
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson3\Code\CSharpDemos\DataClasses\obj\Debug\DataClasses.dll
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson3\Code\CSharpDemos\DataClasses\obj\Debug\DataClasses.pdb
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\DataClasses\bin\Debug\DataClasses.dll
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\DataClasses\bin\Debug\DataClasses.pdb
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\DataClasses\obj\Debug\DataClasses.csprojResolveAssemblyReference.cache
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\DataClasses\obj\Debug\DataClasses.dll
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson3\Code\CSharpDemos\DataClasses\obj\Debug\DataClasses.pdb
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson3\Code\CSharpDemos\DataClasses\bin\Debug\DataClasses.dll
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson3\Code\CSharpDemos\DataClasses\bin\Debug\DataClasses.pdb
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson3\Code\CSharpDemos\DataClasses\obj\Debug\DataClasses.csprojResolveAssemblyReference.cache
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson3\Code\CSharpDemos\DataClasses\obj\Debug\DataClasses.dll
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson3\Code\CSharpDemos\DataClasses\obj\Debug\DataClasses.pdb

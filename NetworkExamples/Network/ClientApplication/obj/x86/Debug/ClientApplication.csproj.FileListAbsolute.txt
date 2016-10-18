@@ -1,0 +1,5 @@
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\ClientApplication\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\ClientApplication\bin\Debug\ClientApplication.exe
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\ClientApplication\bin\Debug\ClientApplication.pdb
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\ClientApplication\obj\x86\Debug\ClientApplication.exe
+C:\Uddannelse\DNP1\#4 The class library\Code\Network\ClientApplication\obj\x86\Debug\ClientApplication.pdb

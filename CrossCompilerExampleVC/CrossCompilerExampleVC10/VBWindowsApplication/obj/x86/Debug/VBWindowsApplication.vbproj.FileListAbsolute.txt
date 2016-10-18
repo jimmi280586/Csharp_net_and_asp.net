@@ -1,0 +1,95 @@
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.exe
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.pdb
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.xml
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.dll
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.pdb
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Form1.resources
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Resources.resources
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.exe
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.xml
+C:\Uddannelse\DNP1\#2 Introduction to .NET\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.pdb
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.exe
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.xml
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.pdb
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.exe
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.pdb
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.xml
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.dll
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.pdb
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Form1.resources
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Resources.resources
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.exe
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.xml
+C:\Uddannelse\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.pdb
+C:\VIA\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.exe
+C:\VIA\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.xml
+C:\VIA\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.pdb
+C:\VIA\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.exe
+C:\VIA\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.pdb
+C:\VIA\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.xml
+C:\VIA\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.dll
+C:\VIA\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.pdb
+C:\VIA\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.vbprojResolveAssemblyReference.cache
+C:\VIA\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Form1.resources
+C:\VIA\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Resources.resources
+C:\VIA\DNP1 Spring 2012\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.vbproj.GenerateResource.Cache
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.exe
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.xml
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.pdb
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.exe
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.pdb
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.xml
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.dll
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.pdb
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.vbprojResolveAssemblyReference.cache
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Form1.resources
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Resources.resources
+C:\VIA\DNP1 Spring 2013\Presentations\Lesson1and2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.vbproj.GenerateResource.Cache
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.exe
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.xml
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.pdb
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.exe
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.pdb
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.xml
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.dll
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.pdb
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.vbprojResolveAssemblyReference.cache
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Form1.resources
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Resources.resources
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.vbproj.GenerateResource.Cache
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.exe
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.xml
+C:\Users\kf\OneDrive\VIA\DNPI1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.pdb
+C:\Users\kf\SkyDrive\VIA\DNPI1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.exe
+C:\Users\kf\SkyDrive\VIA\DNPI1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.xml
+C:\Users\kf\SkyDrive\VIA\DNPI1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.pdb
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.exe
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.xml
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.pdb
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.exe
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.pdb
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.xml
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.dll
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.pdb
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.vbprojResolveAssemblyReference.cache
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Form1.resources
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Resources.resources
+C:\Users\kf\SkyDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.vbproj.GenerateResource.Cache
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.exe
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.xml
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.pdb
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.exe
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.pdb
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\VBWindowsApplication.xml
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.dll
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\bin\Debug\DNP1MathLib.pdb
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.vbprojResolveAssemblyReference.cache
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Form1.resources
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.Resources.resources
+C:\Users\kf\OneDrive\VIA\DNP1\Lesson1_2\Code\CrossCompilerExampleVC10\VBWindowsApplication\obj\x86\Debug\VBWindowsApplication.vbproj.GenerateResource.Cache
