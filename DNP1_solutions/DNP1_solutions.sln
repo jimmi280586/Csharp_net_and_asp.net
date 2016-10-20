@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSerialization", "TestSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsCalculator", "WindowsFormsCalculator\WindowsFormsCalculator.csproj", "{18CC1E1D-E59E-461B-BF05-BBAD539CD8AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmdController1.0", "CmdController1.0\CmdController1.0.csproj", "{F2D757D0-D23B-410A-9871-7401FB74AE51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsCmdController", "WindowsFormsCmdController\WindowsFormsCmdController.csproj", "{09A174C4-1210-4A3A-96BE-35D0C9666A61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{18CC1E1D-E59E-461B-BF05-BBAD539CD8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18CC1E1D-E59E-461B-BF05-BBAD539CD8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18CC1E1D-E59E-461B-BF05-BBAD539CD8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D757D0-D23B-410A-9871-7401FB74AE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D757D0-D23B-410A-9871-7401FB74AE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D757D0-D23B-410A-9871-7401FB74AE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D757D0-D23B-410A-9871-7401FB74AE51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A174C4-1210-4A3A-96BE-35D0C9666A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A174C4-1210-4A3A-96BE-35D0C9666A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A174C4-1210-4A3A-96BE-35D0C9666A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A174C4-1210-4A3A-96BE-35D0C9666A61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
