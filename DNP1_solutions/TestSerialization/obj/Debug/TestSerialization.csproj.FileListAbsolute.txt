@@ -1,2 +1,8 @@
 K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestSerialization\bin\Debug\TestSerialization.exe.config
 K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestSerialization\obj\Debug\TestSerialization.csprojResolveAssemblyReference.cache
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestSerialization\bin\Debug\TestSerialization.exe
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestSerialization\bin\Debug\TestSerialization.pdb
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestSerialization\bin\Debug\Serialization.dll
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestSerialization\bin\Debug\Serialization.pdb
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestSerialization\obj\Debug\TestSerialization.exe
+K:\src\C#_.net_asp.net\Csharp_net_and_asp.net\DNP1_solutions\TestSerialization\obj\Debug\TestSerialization.pdb
