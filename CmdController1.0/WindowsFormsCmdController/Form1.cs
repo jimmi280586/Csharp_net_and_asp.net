@@ -1,20 +1,17 @@
 ﻿using CmdController1._0;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsCmdController
 {
     public partial class Form1 : Form
     {
-        decimal hour, min, sec;
+        private CmdModel model = new CmdModel();
+        private decimal hour { get; set; }
+        private decimal min { get; set; }
+        private decimal sec { get; set; }
+        private int choice;
         public Form1()
         {
             InitializeComponent();
@@ -72,11 +69,9 @@ namespace WindowsFormsCmdController
 
         private void startDiskPartitionCmdToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Disk partition commandline will now open");//lav i method and put timer on it
-            var psidisk = new ProcessStartInfo("diskpart");
-            psidisk.CreateNoWindow = true;
-            psidisk.UseShellExecute = false;
-            Process.Start(psidisk);
+                        
+            model.execute(choice);
+
         }
 
         private void cancelShutdownToolStripMenuItem_Click(object sender, EventArgs e)
@@ -92,11 +87,13 @@ namespace WindowsFormsCmdController
         {
             decimal res = (hour * 60 * 60) + (min * 60);
             res += sec;
-            MessageBox.Show("Your computer will shutdown in " + res + " Seconds.");
+            model.execute(choice)
+            /*MessageBox.Show("Your computer will shutdown in " + res + " Seconds.");
             var psitimer = new ProcessStartInfo("shutdown", "/s /t " + res);
             psitimer.CreateNoWindow = true;
             psitimer.UseShellExecute = false;
-            Process.Start(psitimer);           
+            Process.Start(psitimer); 
+            */          
         }
     }
 }
