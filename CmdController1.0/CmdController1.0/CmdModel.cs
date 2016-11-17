@@ -29,12 +29,14 @@ namespace CmdController1._0
             {
                 msg = "shutdown -s -t " + timer;
             }
+            return "";
         }
         private decimal timerCal()
         {
-            CmdControllerView.Form1 form = 
-            decimal res = ( * 60 * 60) + (min * 60);
-            res += sec;
+            //CmdControllerView.Form1 form = 
+            decimal res = 0;// ( * 60 * 60) + (min * 60);
+            //res += sec;
+            return res;
         }
         
 
