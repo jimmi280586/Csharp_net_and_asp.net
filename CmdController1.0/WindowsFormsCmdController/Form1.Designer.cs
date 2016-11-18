@@ -36,7 +36,6 @@
             this.cancelShutdownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.restartComandsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.restartNowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.updateAndRestartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.restartOnTimerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cancelRestartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.moveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,6 +52,7 @@
             this.startDiskPartitionCmdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.installWebserviceInEclipseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ShutdownTimerPanel = new System.Windows.Forms.Panel();
+            this.RestartTimerPanel = new System.Windows.Forms.Panel();
             this.ShutdownTimerExecute = new System.Windows.Forms.Button();
             this.TextBoxShutdownTimer = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -63,6 +63,7 @@
             this.HoursBox = new System.Windows.Forms.NumericUpDown();
             this.menuStrip1.SuspendLayout();
             this.ShutdownTimerPanel.SuspendLayout();
+            this.RestartTimerPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MinutsBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SecondsBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HoursBox)).BeginInit();
@@ -99,7 +100,7 @@
             // shutdownNowToolStripMenuItem
             // 
             this.shutdownNowToolStripMenuItem.Name = "shutdownNowToolStripMenuItem";
-            this.shutdownNowToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
+            this.shutdownNowToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.shutdownNowToolStripMenuItem.Text = "Shutdown now";
             this.shutdownNowToolStripMenuItem.Click += new System.EventHandler(this.shutdownNowToolStripMenuItem_Click);
             // 
@@ -107,14 +108,15 @@
             // 
             this.shutdownOnTimerToolStripMenuItem.Name = "shutdownOnTimerToolStripMenuItem";
             this.shutdownOnTimerToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.W)));
-            this.shutdownOnTimerToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
+            this.shutdownOnTimerToolStripMenuItem.ShowShortcutKeys = false;
+            this.shutdownOnTimerToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.shutdownOnTimerToolStripMenuItem.Text = "Shutdown on timer";
             this.shutdownOnTimerToolStripMenuItem.Click += new System.EventHandler(this.shutdownOnTimerToolStripMenuItem_Click);
             // 
             // cancelShutdownToolStripMenuItem
             // 
             this.cancelShutdownToolStripMenuItem.Name = "cancelShutdownToolStripMenuItem";
-            this.cancelShutdownToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
+            this.cancelShutdownToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.cancelShutdownToolStripMenuItem.Text = "Cancel Shutdown";
             this.cancelShutdownToolStripMenuItem.Click += new System.EventHandler(this.cancelShutdownToolStripMenuItem_Click);
             // 
@@ -122,7 +124,6 @@
             // 
             this.restartComandsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.restartNowToolStripMenuItem,
-            this.updateAndRestartToolStripMenuItem,
             this.restartOnTimerToolStripMenuItem,
             this.cancelRestartToolStripMenuItem});
             this.restartComandsToolStripMenuItem.Name = "restartComandsToolStripMenuItem";
@@ -132,26 +133,23 @@
             // restartNowToolStripMenuItem
             // 
             this.restartNowToolStripMenuItem.Name = "restartNowToolStripMenuItem";
-            this.restartNowToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.restartNowToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.restartNowToolStripMenuItem.Text = "Restart now";
-            // 
-            // updateAndRestartToolStripMenuItem
-            // 
-            this.updateAndRestartToolStripMenuItem.Name = "updateAndRestartToolStripMenuItem";
-            this.updateAndRestartToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
-            this.updateAndRestartToolStripMenuItem.Text = "Update and Restart";
+            this.restartNowToolStripMenuItem.Click += new System.EventHandler(this.restartNowToolStripMenuItem_Click);
             // 
             // restartOnTimerToolStripMenuItem
             // 
             this.restartOnTimerToolStripMenuItem.Name = "restartOnTimerToolStripMenuItem";
-            this.restartOnTimerToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.restartOnTimerToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.restartOnTimerToolStripMenuItem.Text = "Restart on Timer";
+            this.restartOnTimerToolStripMenuItem.Click += new System.EventHandler(this.restartOnTimerToolStripMenuItem_Click);
             // 
             // cancelRestartToolStripMenuItem
             // 
             this.cancelRestartToolStripMenuItem.Name = "cancelRestartToolStripMenuItem";
-            this.cancelRestartToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.cancelRestartToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.cancelRestartToolStripMenuItem.Text = "Cancel Restart";
+            this.cancelRestartToolStripMenuItem.Click += new System.EventHandler(this.cancelRestartToolStripMenuItem_Click);
             // 
             // moveToolStripMenuItem
             // 
@@ -248,23 +246,32 @@
             // 
             this.ShutdownTimerPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ShutdownTimerPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ShutdownTimerPanel.Controls.Add(this.ShutdownTimerExecute);
-            this.ShutdownTimerPanel.Controls.Add(this.TextBoxShutdownTimer);
-            this.ShutdownTimerPanel.Controls.Add(this.label3);
-            this.ShutdownTimerPanel.Controls.Add(this.label2);
-            this.ShutdownTimerPanel.Controls.Add(this.label1);
-            this.ShutdownTimerPanel.Controls.Add(this.MinutsBox);
-            this.ShutdownTimerPanel.Controls.Add(this.SecondsBox);
-            this.ShutdownTimerPanel.Controls.Add(this.HoursBox);
+            this.ShutdownTimerPanel.Controls.Add(this.RestartTimerPanel);
             this.ShutdownTimerPanel.Location = new System.Drawing.Point(0, 27);
             this.ShutdownTimerPanel.Name = "ShutdownTimerPanel";
             this.ShutdownTimerPanel.Size = new System.Drawing.Size(697, 578);
             this.ShutdownTimerPanel.TabIndex = 7;
             this.ShutdownTimerPanel.Visible = false;
             // 
+            // RestartTimerPanel
+            // 
+            this.RestartTimerPanel.BackColor = System.Drawing.SystemColors.Highlight;
+            this.RestartTimerPanel.Controls.Add(this.ShutdownTimerExecute);
+            this.RestartTimerPanel.Controls.Add(this.TextBoxShutdownTimer);
+            this.RestartTimerPanel.Controls.Add(this.label3);
+            this.RestartTimerPanel.Controls.Add(this.label2);
+            this.RestartTimerPanel.Controls.Add(this.label1);
+            this.RestartTimerPanel.Controls.Add(this.MinutsBox);
+            this.RestartTimerPanel.Controls.Add(this.SecondsBox);
+            this.RestartTimerPanel.Controls.Add(this.HoursBox);
+            this.RestartTimerPanel.Location = new System.Drawing.Point(1, 1);
+            this.RestartTimerPanel.Name = "RestartTimerPanel";
+            this.RestartTimerPanel.Size = new System.Drawing.Size(655, 575);
+            this.RestartTimerPanel.TabIndex = 8;
+            // 
             // ShutdownTimerExecute
             // 
-            this.ShutdownTimerExecute.Location = new System.Drawing.Point(581, 536);
+            this.ShutdownTimerExecute.Location = new System.Drawing.Point(580, 535);
             this.ShutdownTimerExecute.Name = "ShutdownTimerExecute";
             this.ShutdownTimerExecute.Size = new System.Drawing.Size(103, 28);
             this.ShutdownTimerExecute.TabIndex = 7;
@@ -275,7 +282,7 @@
             // TextBoxShutdownTimer
             // 
             this.TextBoxShutdownTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBoxShutdownTimer.Location = new System.Drawing.Point(86, 45);
+            this.TextBoxShutdownTimer.Location = new System.Drawing.Point(69, 39);
             this.TextBoxShutdownTimer.Name = "TextBoxShutdownTimer";
             this.TextBoxShutdownTimer.Size = new System.Drawing.Size(529, 118);
             this.TextBoxShutdownTimer.TabIndex = 6;
@@ -285,7 +292,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(270, 196);
+            this.label3.Location = new System.Drawing.Point(269, 195);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 13);
             this.label3.TabIndex = 5;
@@ -294,7 +301,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(189, 196);
+            this.label2.Location = new System.Drawing.Point(188, 195);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 4;
@@ -303,7 +310,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(100, 196);
+            this.label1.Location = new System.Drawing.Point(99, 195);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 3;
@@ -311,7 +318,7 @@
             // 
             // MinutsBox
             // 
-            this.MinutsBox.Location = new System.Drawing.Point(173, 212);
+            this.MinutsBox.Location = new System.Drawing.Point(172, 211);
             this.MinutsBox.Name = "MinutsBox";
             this.MinutsBox.Size = new System.Drawing.Size(72, 20);
             this.MinutsBox.TabIndex = 2;
@@ -319,7 +326,7 @@
             // 
             // SecondsBox
             // 
-            this.SecondsBox.Location = new System.Drawing.Point(260, 212);
+            this.SecondsBox.Location = new System.Drawing.Point(259, 211);
             this.SecondsBox.Name = "SecondsBox";
             this.SecondsBox.Size = new System.Drawing.Size(72, 20);
             this.SecondsBox.TabIndex = 1;
@@ -327,7 +334,7 @@
             // 
             // HoursBox
             // 
-            this.HoursBox.Location = new System.Drawing.Point(86, 212);
+            this.HoursBox.Location = new System.Drawing.Point(85, 211);
             this.HoursBox.Name = "HoursBox";
             this.HoursBox.Size = new System.Drawing.Size(72, 20);
             this.HoursBox.TabIndex = 0;
@@ -346,7 +353,8 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ShutdownTimerPanel.ResumeLayout(false);
-            this.ShutdownTimerPanel.PerformLayout();
+            this.RestartTimerPanel.ResumeLayout(false);
+            this.RestartTimerPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MinutsBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SecondsBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.HoursBox)).EndInit();
@@ -364,7 +372,6 @@
         private System.Windows.Forms.ToolStripMenuItem cancelShutdownToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem restartComandsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem restartNowToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem updateAndRestartToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem restartOnTimerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cancelRestartToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem moveToolStripMenuItem;
@@ -389,6 +396,7 @@
         private System.Windows.Forms.NumericUpDown SecondsBox;
         private System.Windows.Forms.NumericUpDown HoursBox;
         private System.Windows.Forms.Button ShutdownTimerExecute;
+        private System.Windows.Forms.Panel RestartTimerPanel;
     }
 }
 

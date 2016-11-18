@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="AutoClosingMessageBox.cs" />
     <Compile Include="CmdController.cs" />
-    <Compile Include="CmdModel.cs" />
+    <Compile Include="CmdFunctions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
