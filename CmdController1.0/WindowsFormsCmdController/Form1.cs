@@ -11,7 +11,7 @@ namespace WindowsFormsCmdController
         private decimal hour { get; set; }
         private decimal min { get; set; }
         private decimal sec { get; set; }
-        private int choice = 0;
+        
         public Form1()
         {
             InitializeComponent();
@@ -33,8 +33,6 @@ namespace WindowsFormsCmdController
 
         private void shutdownOnTimerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            RestartTimerPanel.Visible = false;
-            ShutdownTimerPanel.Visible = true;
         }
         
         private void TextBoxShutdownTimer_TextChanged(object sender, EventArgs e)
@@ -59,28 +57,22 @@ namespace WindowsFormsCmdController
 
         private void shutdownNowToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AutoClosingMessageBox.Show("Your computer will now shutdown", "Caption", 5000);
-            execute("shutdown", " /s");
+          
         }
 
         private void startDiskPartitionCmdToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-                        
-            this.model.execute(choice);
-
+        {         
         }
 
         private void cancelShutdownToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AutoClosingMessageBox.Show("Shutdown have been canceled", "Caption", 5000);
-            execute("shutdown", " /a");
-           
+                     
         }       
 
         private void ShutdownTimerExecute_Click(object sender, EventArgs e)
-        {           
+        {
             AutoClosingMessageBox.Show("The computer will shutdown in " + model.timeCalc(), "Caption", 5000);
-            execute("shutdown", " /s /t " + model.timeCalc());        
+            execute("shutdown", " /s /t " + model.timeCalc());
         }
         private void execute(String cmd1, String cmd2)
         {          
@@ -97,15 +89,72 @@ namespace WindowsFormsCmdController
 
         private void restartOnTimerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ShutdownTimerPanel.Visible = false;
-            RestartTimerPanel.Visible = true;
-            //AutoClosingMessageBox.Show("The computer will restart in " + model.timeCalc(), "Caption", 5000);
-            //execute("restart", " /s /t " + model.timeCalc());
         }
 
         private void cancelRestartToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            this.model.hour = numericUpDown1.Value;
+        }
+
+        private void numericUpDown2_ValueChanged(object sender, EventArgs e)
+        {
+            this.model.min = numericUpDown2.Value;
+        }
+
+        private void numericUpDown3_ValueChanged(object sender, EventArgs e)
+        {
+            this.model.sec = numericUpDown3.Value;
+        }
+
+        private void executeRestart_Click(object sender, EventArgs e)
+        {
+            AutoClosingMessageBox.Show("The computer will restart in " + model.timeCalc(), "Caption", 5000);
+            execute("shutdown", " /r /t " + model.timeCalc());
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AutoClosingMessageBox.Show("Shutdown have been canceled", "Caption", 5000);
+            execute("shutdown", " /a");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AutoClosingMessageBox.Show("Your computer will now shutdown", "Caption", 5000);
+            execute("shutdown", " /s");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AutoClosingMessageBox.Show("Restart have been canceled", "Caption", 5000);
+            execute("shutdown", " /a");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            AutoClosingMessageBox.Show("Your computer will now restart", "Caption", 5000);
+            execute("shutdown", " /r");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AutoClosingMessageBox.Show("Disk partition cmd tool will now start", "Caption", 5000);
+            Process.Start("diskpart.exe");
         }
     }
 }

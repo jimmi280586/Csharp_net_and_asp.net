@@ -29,296 +29,151 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.shutdownComandsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.shutdownNowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.shutdownOnTimerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cancelShutdownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.restartComandsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.restartNowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.restartOnTimerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cancelRestartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.moveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.moveFilesFromSubToParentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.forceMoveFilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.copyFilesFromSubToParrentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.forceCopyFilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deleteFilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.forceDeletFilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deleteAllFilesInDirectoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deleteDirectoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.diskParttitionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.startDiskPartitionCmdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.installWebserviceInEclipseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ShutdownTimerPanel = new System.Windows.Forms.Panel();
-            this.RestartTimerPanel = new System.Windows.Forms.Panel();
-            this.ShutdownTimerExecute = new System.Windows.Forms.Button();
-            this.TextBoxShutdownTimer = new System.Windows.Forms.RichTextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.TextBoxShutdownTimer = new System.Windows.Forms.RichTextBox();
+            this.ShutdownTimerExecute = new System.Windows.Forms.Button();
+            this.HoursBox = new System.Windows.Forms.NumericUpDown();
             this.MinutsBox = new System.Windows.Forms.NumericUpDown();
             this.SecondsBox = new System.Windows.Forms.NumericUpDown();
-            this.HoursBox = new System.Windows.Forms.NumericUpDown();
-            this.menuStrip1.SuspendLayout();
+            this.restartOnTimerPanel = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.restartTextBox = new System.Windows.Forms.TextBox();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.executeRestart = new System.Windows.Forms.Button();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.diskpartPanel = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
             this.ShutdownTimerPanel.SuspendLayout();
-            this.RestartTimerPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HoursBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinutsBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SecondsBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HoursBox)).BeginInit();
+            this.restartOnTimerPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.diskpartPanel.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.shutdownComandsToolStripMenuItem,
-            this.restartComandsToolStripMenuItem,
-            this.moveToolStripMenuItem,
-            this.copyToolStripMenuItem,
-            this.deleteFilesToolStripMenuItem,
-            this.diskParttitionToolStripMenuItem,
-            this.installWebserviceInEclipseToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(697, 24);
-            this.menuStrip1.TabIndex = 6;
-            this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
-            // 
-            // shutdownComandsToolStripMenuItem
-            // 
-            this.shutdownComandsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.shutdownNowToolStripMenuItem,
-            this.shutdownOnTimerToolStripMenuItem,
-            this.cancelShutdownToolStripMenuItem});
-            this.shutdownComandsToolStripMenuItem.Name = "shutdownComandsToolStripMenuItem";
-            this.shutdownComandsToolStripMenuItem.Size = new System.Drawing.Size(127, 20);
-            this.shutdownComandsToolStripMenuItem.Text = "Shutdown Comands";
-            this.shutdownComandsToolStripMenuItem.Click += new System.EventHandler(this.shutdownComandsToolStripMenuItem_Click);
-            // 
-            // shutdownNowToolStripMenuItem
-            // 
-            this.shutdownNowToolStripMenuItem.Name = "shutdownNowToolStripMenuItem";
-            this.shutdownNowToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.shutdownNowToolStripMenuItem.Text = "Shutdown now";
-            this.shutdownNowToolStripMenuItem.Click += new System.EventHandler(this.shutdownNowToolStripMenuItem_Click);
-            // 
-            // shutdownOnTimerToolStripMenuItem
-            // 
-            this.shutdownOnTimerToolStripMenuItem.Name = "shutdownOnTimerToolStripMenuItem";
-            this.shutdownOnTimerToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.W)));
-            this.shutdownOnTimerToolStripMenuItem.ShowShortcutKeys = false;
-            this.shutdownOnTimerToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.shutdownOnTimerToolStripMenuItem.Text = "Shutdown on timer";
-            this.shutdownOnTimerToolStripMenuItem.Click += new System.EventHandler(this.shutdownOnTimerToolStripMenuItem_Click);
-            // 
-            // cancelShutdownToolStripMenuItem
-            // 
-            this.cancelShutdownToolStripMenuItem.Name = "cancelShutdownToolStripMenuItem";
-            this.cancelShutdownToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.cancelShutdownToolStripMenuItem.Text = "Cancel Shutdown";
-            this.cancelShutdownToolStripMenuItem.Click += new System.EventHandler(this.cancelShutdownToolStripMenuItem_Click);
-            // 
-            // restartComandsToolStripMenuItem
-            // 
-            this.restartComandsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.restartNowToolStripMenuItem,
-            this.restartOnTimerToolStripMenuItem,
-            this.cancelRestartToolStripMenuItem});
-            this.restartComandsToolStripMenuItem.Name = "restartComandsToolStripMenuItem";
-            this.restartComandsToolStripMenuItem.Size = new System.Drawing.Size(109, 20);
-            this.restartComandsToolStripMenuItem.Text = "Restart Comands";
-            // 
-            // restartNowToolStripMenuItem
-            // 
-            this.restartNowToolStripMenuItem.Name = "restartNowToolStripMenuItem";
-            this.restartNowToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.restartNowToolStripMenuItem.Text = "Restart now";
-            this.restartNowToolStripMenuItem.Click += new System.EventHandler(this.restartNowToolStripMenuItem_Click);
-            // 
-            // restartOnTimerToolStripMenuItem
-            // 
-            this.restartOnTimerToolStripMenuItem.Name = "restartOnTimerToolStripMenuItem";
-            this.restartOnTimerToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.restartOnTimerToolStripMenuItem.Text = "Restart on Timer";
-            this.restartOnTimerToolStripMenuItem.Click += new System.EventHandler(this.restartOnTimerToolStripMenuItem_Click);
-            // 
-            // cancelRestartToolStripMenuItem
-            // 
-            this.cancelRestartToolStripMenuItem.Name = "cancelRestartToolStripMenuItem";
-            this.cancelRestartToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.cancelRestartToolStripMenuItem.Text = "Cancel Restart";
-            this.cancelRestartToolStripMenuItem.Click += new System.EventHandler(this.cancelRestartToolStripMenuItem_Click);
-            // 
-            // moveToolStripMenuItem
-            // 
-            this.moveToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.moveFilesFromSubToParentToolStripMenuItem,
-            this.forceMoveFilesToolStripMenuItem});
-            this.moveToolStripMenuItem.Name = "moveToolStripMenuItem";
-            this.moveToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.moveToolStripMenuItem.Text = "Move";
-            // 
-            // moveFilesFromSubToParentToolStripMenuItem
-            // 
-            this.moveFilesFromSubToParentToolStripMenuItem.Name = "moveFilesFromSubToParentToolStripMenuItem";
-            this.moveFilesFromSubToParentToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
-            this.moveFilesFromSubToParentToolStripMenuItem.Text = "Move files from sub to parent";
-            // 
-            // forceMoveFilesToolStripMenuItem
-            // 
-            this.forceMoveFilesToolStripMenuItem.Name = "forceMoveFilesToolStripMenuItem";
-            this.forceMoveFilesToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
-            this.forceMoveFilesToolStripMenuItem.Text = "force move files";
-            // 
-            // copyToolStripMenuItem
-            // 
-            this.copyToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.copyFilesFromSubToParrentToolStripMenuItem,
-            this.forceCopyFilesToolStripMenuItem});
-            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
-            this.copyToolStripMenuItem.Text = "Copy";
-            // 
-            // copyFilesFromSubToParrentToolStripMenuItem
-            // 
-            this.copyFilesFromSubToParrentToolStripMenuItem.Name = "copyFilesFromSubToParrentToolStripMenuItem";
-            this.copyFilesFromSubToParrentToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
-            this.copyFilesFromSubToParrentToolStripMenuItem.Text = "copy files from sub to parrent";
-            // 
-            // forceCopyFilesToolStripMenuItem
-            // 
-            this.forceCopyFilesToolStripMenuItem.Name = "forceCopyFilesToolStripMenuItem";
-            this.forceCopyFilesToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
-            this.forceCopyFilesToolStripMenuItem.Text = "force copy files";
-            // 
-            // deleteFilesToolStripMenuItem
-            // 
-            this.deleteFilesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.forceDeletFilesToolStripMenuItem,
-            this.deleteAllFilesInDirectoryToolStripMenuItem,
-            this.deleteDirectoryToolStripMenuItem});
-            this.deleteFilesToolStripMenuItem.Name = "deleteFilesToolStripMenuItem";
-            this.deleteFilesToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
-            this.deleteFilesToolStripMenuItem.Text = "Delete files";
-            // 
-            // forceDeletFilesToolStripMenuItem
-            // 
-            this.forceDeletFilesToolStripMenuItem.Name = "forceDeletFilesToolStripMenuItem";
-            this.forceDeletFilesToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.forceDeletFilesToolStripMenuItem.Text = "force delet files";
-            // 
-            // deleteAllFilesInDirectoryToolStripMenuItem
-            // 
-            this.deleteAllFilesInDirectoryToolStripMenuItem.Name = "deleteAllFilesInDirectoryToolStripMenuItem";
-            this.deleteAllFilesInDirectoryToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.deleteAllFilesInDirectoryToolStripMenuItem.Text = "delete all files in directory";
-            // 
-            // deleteDirectoryToolStripMenuItem
-            // 
-            this.deleteDirectoryToolStripMenuItem.Name = "deleteDirectoryToolStripMenuItem";
-            this.deleteDirectoryToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
-            this.deleteDirectoryToolStripMenuItem.Text = "delete directory";
-            // 
-            // diskParttitionToolStripMenuItem
-            // 
-            this.diskParttitionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.startDiskPartitionCmdToolStripMenuItem});
-            this.diskParttitionToolStripMenuItem.Name = "diskParttitionToolStripMenuItem";
-            this.diskParttitionToolStripMenuItem.Size = new System.Drawing.Size(93, 20);
-            this.diskParttitionToolStripMenuItem.Text = "Disk parttition";
-            // 
-            // startDiskPartitionCmdToolStripMenuItem
-            // 
-            this.startDiskPartitionCmdToolStripMenuItem.Name = "startDiskPartitionCmdToolStripMenuItem";
-            this.startDiskPartitionCmdToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-            this.startDiskPartitionCmdToolStripMenuItem.Text = "start disk partition cmd";
-            this.startDiskPartitionCmdToolStripMenuItem.Click += new System.EventHandler(this.startDiskPartitionCmdToolStripMenuItem_Click);
-            // 
-            // installWebserviceInEclipseToolStripMenuItem
-            // 
-            this.installWebserviceInEclipseToolStripMenuItem.Name = "installWebserviceInEclipseToolStripMenuItem";
-            this.installWebserviceInEclipseToolStripMenuItem.Size = new System.Drawing.Size(163, 20);
-            this.installWebserviceInEclipseToolStripMenuItem.Text = "install webservice in eclipse";
             // 
             // ShutdownTimerPanel
             // 
             this.ShutdownTimerPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ShutdownTimerPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ShutdownTimerPanel.Controls.Add(this.RestartTimerPanel);
-            this.ShutdownTimerPanel.Location = new System.Drawing.Point(0, 27);
+            this.ShutdownTimerPanel.Controls.Add(this.button2);
+            this.ShutdownTimerPanel.Controls.Add(this.button1);
+            this.ShutdownTimerPanel.Controls.Add(this.label1);
+            this.ShutdownTimerPanel.Controls.Add(this.label2);
+            this.ShutdownTimerPanel.Controls.Add(this.label3);
+            this.ShutdownTimerPanel.Controls.Add(this.TextBoxShutdownTimer);
+            this.ShutdownTimerPanel.Controls.Add(this.ShutdownTimerExecute);
+            this.ShutdownTimerPanel.Controls.Add(this.HoursBox);
+            this.ShutdownTimerPanel.Controls.Add(this.MinutsBox);
+            this.ShutdownTimerPanel.Controls.Add(this.SecondsBox);
+            this.ShutdownTimerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ShutdownTimerPanel.Location = new System.Drawing.Point(3, 3);
             this.ShutdownTimerPanel.Name = "ShutdownTimerPanel";
-            this.ShutdownTimerPanel.Size = new System.Drawing.Size(697, 578);
+            this.ShutdownTimerPanel.Size = new System.Drawing.Size(683, 548);
             this.ShutdownTimerPanel.TabIndex = 7;
-            this.ShutdownTimerPanel.Visible = false;
             // 
-            // RestartTimerPanel
+            // button2
             // 
-            this.RestartTimerPanel.BackColor = System.Drawing.SystemColors.Highlight;
-            this.RestartTimerPanel.Controls.Add(this.ShutdownTimerExecute);
-            this.RestartTimerPanel.Controls.Add(this.TextBoxShutdownTimer);
-            this.RestartTimerPanel.Controls.Add(this.label3);
-            this.RestartTimerPanel.Controls.Add(this.label2);
-            this.RestartTimerPanel.Controls.Add(this.label1);
-            this.RestartTimerPanel.Controls.Add(this.MinutsBox);
-            this.RestartTimerPanel.Controls.Add(this.SecondsBox);
-            this.RestartTimerPanel.Controls.Add(this.HoursBox);
-            this.RestartTimerPanel.Location = new System.Drawing.Point(1, 1);
-            this.RestartTimerPanel.Name = "RestartTimerPanel";
-            this.RestartTimerPanel.Size = new System.Drawing.Size(655, 575);
-            this.RestartTimerPanel.TabIndex = 8;
+            this.button2.Location = new System.Drawing.Point(300, 489);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(101, 31);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Shutdown now";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // ShutdownTimerExecute
+            // button1
             // 
-            this.ShutdownTimerExecute.Location = new System.Drawing.Point(580, 535);
-            this.ShutdownTimerExecute.Name = "ShutdownTimerExecute";
-            this.ShutdownTimerExecute.Size = new System.Drawing.Size(103, 28);
-            this.ShutdownTimerExecute.TabIndex = 7;
-            this.ShutdownTimerExecute.Text = "Execute";
-            this.ShutdownTimerExecute.UseVisualStyleBackColor = true;
-            this.ShutdownTimerExecute.Click += new System.EventHandler(this.ShutdownTimerExecute_Click);
+            this.button1.Location = new System.Drawing.Point(31, 489);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(101, 31);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Cancel Shutdown";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(67, 211);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Hours";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(152, 211);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Minuts";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(234, 211);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Seconds";
             // 
             // TextBoxShutdownTimer
             // 
             this.TextBoxShutdownTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBoxShutdownTimer.Location = new System.Drawing.Point(69, 39);
+            this.TextBoxShutdownTimer.Location = new System.Drawing.Point(70, 51);
             this.TextBoxShutdownTimer.Name = "TextBoxShutdownTimer";
             this.TextBoxShutdownTimer.Size = new System.Drawing.Size(529, 118);
             this.TextBoxShutdownTimer.TabIndex = 6;
             this.TextBoxShutdownTimer.Text = resources.GetString("TextBoxShutdownTimer.Text");
             this.TextBoxShutdownTimer.TextChanged += new System.EventHandler(this.TextBoxShutdownTimer_TextChanged);
             // 
-            // label3
+            // ShutdownTimerExecute
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(269, 195);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Seconds";
+            this.ShutdownTimerExecute.Location = new System.Drawing.Point(537, 489);
+            this.ShutdownTimerExecute.Name = "ShutdownTimerExecute";
+            this.ShutdownTimerExecute.Size = new System.Drawing.Size(122, 32);
+            this.ShutdownTimerExecute.TabIndex = 7;
+            this.ShutdownTimerExecute.Text = "Shutdown on timer";
+            this.ShutdownTimerExecute.UseVisualStyleBackColor = true;
+            this.ShutdownTimerExecute.Click += new System.EventHandler(this.ShutdownTimerExecute_Click);
             // 
-            // label2
+            // HoursBox
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(188, 195);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Minuts";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(99, 195);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Hours";
+            this.HoursBox.Location = new System.Drawing.Point(51, 227);
+            this.HoursBox.Name = "HoursBox";
+            this.HoursBox.Size = new System.Drawing.Size(72, 20);
+            this.HoursBox.TabIndex = 0;
+            this.HoursBox.ValueChanged += new System.EventHandler(this.HoursBox_ValueChanged);
             // 
             // MinutsBox
             // 
-            this.MinutsBox.Location = new System.Drawing.Point(172, 211);
+            this.MinutsBox.Location = new System.Drawing.Point(138, 227);
             this.MinutsBox.Name = "MinutsBox";
             this.MinutsBox.Size = new System.Drawing.Size(72, 20);
             this.MinutsBox.TabIndex = 2;
@@ -326,77 +181,292 @@
             // 
             // SecondsBox
             // 
-            this.SecondsBox.Location = new System.Drawing.Point(259, 211);
+            this.SecondsBox.Location = new System.Drawing.Point(228, 227);
             this.SecondsBox.Name = "SecondsBox";
             this.SecondsBox.Size = new System.Drawing.Size(72, 20);
             this.SecondsBox.TabIndex = 1;
             this.SecondsBox.ValueChanged += new System.EventHandler(this.SecondsBox_ValueChanged);
             // 
-            // HoursBox
+            // restartOnTimerPanel
             // 
-            this.HoursBox.Location = new System.Drawing.Point(85, 211);
-            this.HoursBox.Name = "HoursBox";
-            this.HoursBox.Size = new System.Drawing.Size(72, 20);
-            this.HoursBox.TabIndex = 0;
-            this.HoursBox.ValueChanged += new System.EventHandler(this.HoursBox_ValueChanged);
+            this.restartOnTimerPanel.BackColor = System.Drawing.SystemColors.Highlight;
+            this.restartOnTimerPanel.Controls.Add(this.button4);
+            this.restartOnTimerPanel.Controls.Add(this.button3);
+            this.restartOnTimerPanel.Controls.Add(this.label6);
+            this.restartOnTimerPanel.Controls.Add(this.label5);
+            this.restartOnTimerPanel.Controls.Add(this.label4);
+            this.restartOnTimerPanel.Controls.Add(this.restartTextBox);
+            this.restartOnTimerPanel.Controls.Add(this.numericUpDown3);
+            this.restartOnTimerPanel.Controls.Add(this.numericUpDown2);
+            this.restartOnTimerPanel.Controls.Add(this.numericUpDown1);
+            this.restartOnTimerPanel.Controls.Add(this.executeRestart);
+            this.restartOnTimerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.restartOnTimerPanel.Location = new System.Drawing.Point(3, 3);
+            this.restartOnTimerPanel.Name = "restartOnTimerPanel";
+            this.restartOnTimerPanel.Size = new System.Drawing.Size(683, 548);
+            this.restartOnTimerPanel.TabIndex = 8;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(291, 486);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(111, 33);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "Restart now";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(29, 488);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(108, 31);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Cancel restart";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(297, 182);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(49, 13);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Seconds";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(202, 182);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(38, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Minuts";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(94, 182);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Hours";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // restartTextBox
+            // 
+            this.restartTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.restartTextBox.Location = new System.Drawing.Point(74, 64);
+            this.restartTextBox.Multiline = true;
+            this.restartTextBox.Name = "restartTextBox";
+            this.restartTextBox.Size = new System.Drawing.Size(548, 88);
+            this.restartTextBox.TabIndex = 4;
+            this.restartTextBox.Text = "To restart on timer please set the timers and press restart on timer If you want " +
+    "to cancel the restar you can do this by pressing the cancel restart ";
+            // 
+            // numericUpDown3
+            // 
+            this.numericUpDown3.Location = new System.Drawing.Point(289, 201);
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(69, 20);
+            this.numericUpDown3.TabIndex = 3;
+            this.numericUpDown3.ValueChanged += new System.EventHandler(this.numericUpDown3_ValueChanged);
+            // 
+            // numericUpDown2
+            // 
+            this.numericUpDown2.Location = new System.Drawing.Point(184, 201);
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(76, 20);
+            this.numericUpDown2.TabIndex = 2;
+            this.numericUpDown2.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(84, 201);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(75, 20);
+            this.numericUpDown1.TabIndex = 1;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // executeRestart
+            // 
+            this.executeRestart.Location = new System.Drawing.Point(547, 486);
+            this.executeRestart.Name = "executeRestart";
+            this.executeRestart.Size = new System.Drawing.Size(103, 34);
+            this.executeRestart.TabIndex = 0;
+            this.executeRestart.Text = "Restart on timer";
+            this.executeRestart.UseVisualStyleBackColor = true;
+            this.executeRestart.Click += new System.EventHandler(this.executeRestart_Click);
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Controls.Add(this.tabPage6);
+            this.tabControl1.Controls.Add(this.tabPage7);
+            this.tabControl1.Location = new System.Drawing.Point(0, 12);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(697, 595);
+            this.tabControl1.TabIndex = 8;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.restartOnTimerPanel);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(689, 554);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Restart";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.ShutdownTimerPanel);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(689, 554);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Shutdown";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.diskpartPanel);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(689, 569);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "DiskPartition";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(689, 554);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Move";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(689, 554);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Copy";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(689, 554);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Delete";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(689, 569);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "Install webservice";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // diskpartPanel
+            // 
+            this.diskpartPanel.Controls.Add(this.button5);
+            this.diskpartPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.diskpartPanel.Location = new System.Drawing.Point(3, 3);
+            this.diskpartPanel.Name = "diskpartPanel";
+            this.diskpartPanel.Size = new System.Drawing.Size(683, 563);
+            this.diskpartPanel.TabIndex = 0;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(503, 493);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(130, 47);
+            this.button5.TabIndex = 0;
+            this.button5.Text = "Start Disk partition cmd";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(697, 604);
-            this.Controls.Add(this.ShutdownTimerPanel);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ShutdownTimerPanel.ResumeLayout(false);
-            this.RestartTimerPanel.ResumeLayout(false);
-            this.RestartTimerPanel.PerformLayout();
+            this.ShutdownTimerPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HoursBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinutsBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SecondsBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.HoursBox)).EndInit();
+            this.restartOnTimerPanel.ResumeLayout(false);
+            this.restartOnTimerPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.diskpartPanel.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem shutdownComandsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem shutdownNowToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem shutdownOnTimerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cancelShutdownToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem restartComandsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem restartNowToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem restartOnTimerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cancelRestartToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem moveToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem moveFilesFromSubToParentToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem forceMoveFilesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem copyToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem copyFilesFromSubToParrentToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem forceCopyFilesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem deleteFilesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem forceDeletFilesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem deleteAllFilesInDirectoryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem deleteDirectoryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem diskParttitionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem startDiskPartitionCmdToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem installWebserviceInEclipseToolStripMenuItem;
         private System.Windows.Forms.Panel ShutdownTimerPanel;
-        private System.Windows.Forms.RichTextBox TextBoxShutdownTimer;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel restartOnTimerPanel;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox restartTextBox;
+        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Button executeRestart;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.RichTextBox TextBoxShutdownTimer;
+        private System.Windows.Forms.Button ShutdownTimerExecute;
+        private System.Windows.Forms.NumericUpDown HoursBox;
         private System.Windows.Forms.NumericUpDown MinutsBox;
         private System.Windows.Forms.NumericUpDown SecondsBox;
-        private System.Windows.Forms.NumericUpDown HoursBox;
-        private System.Windows.Forms.Button ShutdownTimerExecute;
-        private System.Windows.Forms.Panel RestartTimerPanel;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel diskpartPanel;
+        private System.Windows.Forms.Button button5;
     }
 }
 
