@@ -42,8 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoClosingMessageBox.cs" />
+    <Compile Include="CmdComand.cs" />
     <Compile Include="CmdController.cs" />
+    <Compile Include="CmdFileController.cs" />
     <Compile Include="CmdFunctions.cs" />
+    <Compile Include="CmdLibrary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
