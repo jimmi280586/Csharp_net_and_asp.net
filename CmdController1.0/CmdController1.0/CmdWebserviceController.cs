@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CmdController1._0
 {
-    class CmdComand
+    public class CmdWebserviceController
     {
+
     }
 }

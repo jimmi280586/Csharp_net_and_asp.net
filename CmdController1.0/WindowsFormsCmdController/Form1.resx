@@ -120,6 +120,21 @@
   <data name="TextBoxShutdownTimer.Text" xml:space="preserve">
     <value>To set timer for shutdown please select hours, minuts and seconds before pressing execute. notice that when pressing execute the computer will shutdown after the given time unless cancel shutdown is pressed.</value>
   </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>click the button start disk partition cmd  this will start the windows disk partition comand promt where you can force the removal of damaged partitions and much more. please be shure you know what you are doing befor handeling this comand promt because you can damage you primary partitions.</value>
+  </data>
+  <data name="textBox5.Text" xml:space="preserve">
+    <value>To collapse the folder hiarky tree you need to first select the root folder or main folder. then select the destination folder where you want all your files to be moved . if you want the folders to be moved aswell DO NOT USE THIS METHOD.</value>
+  </data>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>To collapse the folder hiarky tree you need to first select the root folder or main folder. then select the destination folder where you want all your files to be copied to . if you want the folders to be Copied aswell DO NOT USE THIS METHOD.</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>In order to delet a folder you have to select load folder. then it will give you the path in the textfiled and delete all subfolders and the folder it self please make sure you select the right folder  ther will not be any delay. for deletion of a single file select the load file the same rules aply here as before.</value>
+  </data>
+  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>35</value>
   </metadata>

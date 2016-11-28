@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Delimon.Win32.IO">
+      <HintPath>C:\Program Files (x86)\Delimon\Delimon.Win32.IO\Delimon.Win32.IO.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms" />
@@ -42,11 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoClosingMessageBox.cs" />
-    <Compile Include="CmdComand.cs" />
-    <Compile Include="CmdController.cs" />
+    <Compile Include="CmdDeleteController.cs" />
     <Compile Include="CmdFileController.cs" />
-    <Compile Include="CmdFunctions.cs" />
-    <Compile Include="CmdLibrary.cs" />
+    <Compile Include="CmdLoadController.cs" />
+    <Compile Include="CmdShutdownControler.cs" />
+    <Compile Include="CmdController.cs" />
+    <Compile Include="CmdWebserviceController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
