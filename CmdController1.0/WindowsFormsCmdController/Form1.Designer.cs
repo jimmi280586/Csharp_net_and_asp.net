@@ -59,7 +59,19 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.destinationPath = new System.Windows.Forms.TextBox();
+            this.rootPath = new System.Windows.Forms.TextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.destFolderCopy = new System.Windows.Forms.TextBox();
+            this.rootFolderCopy = new System.Windows.Forms.TextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tbFilePath = new System.Windows.Forms.TextBox();
@@ -67,18 +79,15 @@
             this.button7 = new System.Windows.Forms.Button();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.rootPath = new System.Windows.Forms.TextBox();
-            this.destinationPath = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.destFolderCopy = new System.Windows.Forms.TextBox();
-            this.rootFolderCopy = new System.Windows.Forms.TextBox();
+            this.ProjectPathBox = new System.Windows.Forms.TextBox();
+            this.AxisPathBox = new System.Windows.Forms.TextBox();
+            this.PackageBox = new System.Windows.Forms.TextBox();
+            this.InterfaceNameBox = new System.Windows.Forms.TextBox();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
             this.ShutdownTimerPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.HoursBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MinutsBox)).BeginInit();
@@ -95,6 +104,7 @@
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
+            this.tabPage7.SuspendLayout();
             this.SuspendLayout();
             // 
             // ShutdownTimerPanel
@@ -417,6 +427,64 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Move";
             // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(527, 508);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(116, 40);
+            this.button10.TabIndex = 5;
+            this.button10.Text = "Start move";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(537, 92);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(106, 26);
+            this.button9.TabIndex = 4;
+            this.button9.Text = "Destination";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(537, 53);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(106, 26);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "Root Folder";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(20, 153);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(648, 159);
+            this.textBox5.TabIndex = 2;
+            this.textBox5.Text = resources.GetString("textBox5.Text");
+            // 
+            // destinationPath
+            // 
+            this.destinationPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.destinationPath.Location = new System.Drawing.Point(18, 92);
+            this.destinationPath.Name = "destinationPath";
+            this.destinationPath.Size = new System.Drawing.Size(425, 20);
+            this.destinationPath.TabIndex = 1;
+            // 
+            // rootPath
+            // 
+            this.rootPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rootPath.Location = new System.Drawing.Point(17, 53);
+            this.rootPath.Name = "rootPath";
+            this.rootPath.Size = new System.Drawing.Size(427, 20);
+            this.rootPath.TabIndex = 0;
+            // 
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.DarkViolet;
@@ -432,130 +500,6 @@
             this.tabPage5.Size = new System.Drawing.Size(689, 569);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Copy";
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.BackColor = System.Drawing.Color.LawnGreen;
-            this.tabPage6.Controls.Add(this.textBox1);
-            this.tabPage6.Controls.Add(this.tbFilePath);
-            this.tabPage6.Controls.Add(this.button8);
-            this.tabPage6.Controls.Add(this.button7);
-            this.tabPage6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(689, 569);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Delete";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(28, 134);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(611, 150);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = resources.GetString("textBox1.Text");
-            // 
-            // tbFilePath
-            // 
-            this.tbFilePath.Location = new System.Drawing.Point(31, 75);
-            this.tbFilePath.Name = "tbFilePath";
-            this.tbFilePath.Size = new System.Drawing.Size(609, 26);
-            this.tbFilePath.TabIndex = 3;
-            this.tbFilePath.TextChanged += new System.EventHandler(this.tbFilePath_TextChanged);
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(154, 27);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(111, 35);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "Load file";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(28, 27);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(111, 35);
-            this.button7.TabIndex = 1;
-            this.button7.Text = "Load folder";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.BackColor = System.Drawing.Color.Cyan;
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(689, 569);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Install webservice";
-            // 
-            // folderBrowserDialog1
-            // 
-            this.folderBrowserDialog1.HelpRequest += new System.EventHandler(this.folderBrowserDialog1_HelpRequest);
-            // 
-            // rootPath
-            // 
-            this.rootPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rootPath.Location = new System.Drawing.Point(17, 53);
-            this.rootPath.Name = "rootPath";
-            this.rootPath.Size = new System.Drawing.Size(427, 20);
-            this.rootPath.TabIndex = 0;
-            // 
-            // destinationPath
-            // 
-            this.destinationPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.destinationPath.Location = new System.Drawing.Point(18, 92);
-            this.destinationPath.Name = "destinationPath";
-            this.destinationPath.Size = new System.Drawing.Size(425, 20);
-            this.destinationPath.TabIndex = 1;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(20, 153);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(648, 159);
-            this.textBox5.TabIndex = 2;
-            this.textBox5.Text = resources.GetString("textBox5.Text");
-            // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(537, 53);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(106, 26);
-            this.button6.TabIndex = 3;
-            this.button6.Text = "Root Folder";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click_1);
-            // 
-            // button9
-            // 
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(537, 92);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(106, 26);
-            this.button9.TabIndex = 4;
-            this.button9.Text = "Destination";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // button10
-            // 
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(527, 508);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(116, 40);
-            this.button10.TabIndex = 5;
-            this.button10.Text = "Start move";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -612,6 +556,161 @@
             this.rootFolderCopy.Size = new System.Drawing.Size(427, 20);
             this.rootFolderCopy.TabIndex = 6;
             // 
+            // tabPage6
+            // 
+            this.tabPage6.BackColor = System.Drawing.Color.LawnGreen;
+            this.tabPage6.Controls.Add(this.textBox1);
+            this.tabPage6.Controls.Add(this.tbFilePath);
+            this.tabPage6.Controls.Add(this.button8);
+            this.tabPage6.Controls.Add(this.button7);
+            this.tabPage6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(689, 569);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Delete";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(28, 134);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(611, 150);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
+            // 
+            // tbFilePath
+            // 
+            this.tbFilePath.Location = new System.Drawing.Point(31, 75);
+            this.tbFilePath.Name = "tbFilePath";
+            this.tbFilePath.Size = new System.Drawing.Size(609, 26);
+            this.tbFilePath.TabIndex = 3;
+            this.tbFilePath.TextChanged += new System.EventHandler(this.tbFilePath_TextChanged);
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(154, 27);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(111, 35);
+            this.button8.TabIndex = 2;
+            this.button8.Text = "Load file";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(28, 27);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(111, 35);
+            this.button7.TabIndex = 1;
+            this.button7.Text = "Load folder";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.BackColor = System.Drawing.Color.Cyan;
+            this.tabPage7.Controls.Add(this.button18);
+            this.tabPage7.Controls.Add(this.button17);
+            this.tabPage7.Controls.Add(this.button16);
+            this.tabPage7.Controls.Add(this.button15);
+            this.tabPage7.Controls.Add(this.button14);
+            this.tabPage7.Controls.Add(this.InterfaceNameBox);
+            this.tabPage7.Controls.Add(this.PackageBox);
+            this.tabPage7.Controls.Add(this.AxisPathBox);
+            this.tabPage7.Controls.Add(this.ProjectPathBox);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(689, 569);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "Install webservice";
+            // 
+            // folderBrowserDialog1
+            // 
+            this.folderBrowserDialog1.HelpRequest += new System.EventHandler(this.folderBrowserDialog1_HelpRequest);
+            // 
+            // ProjectPathBox
+            // 
+            this.ProjectPathBox.Location = new System.Drawing.Point(23, 39);
+            this.ProjectPathBox.Name = "ProjectPathBox";
+            this.ProjectPathBox.Size = new System.Drawing.Size(354, 20);
+            this.ProjectPathBox.TabIndex = 0;
+            // 
+            // AxisPathBox
+            // 
+            this.AxisPathBox.Location = new System.Drawing.Point(23, 80);
+            this.AxisPathBox.Name = "AxisPathBox";
+            this.AxisPathBox.Size = new System.Drawing.Size(353, 20);
+            this.AxisPathBox.TabIndex = 1;
+            // 
+            // PackageBox
+            // 
+            this.PackageBox.Location = new System.Drawing.Point(23, 123);
+            this.PackageBox.Name = "PackageBox";
+            this.PackageBox.Size = new System.Drawing.Size(352, 20);
+            this.PackageBox.TabIndex = 2;
+            this.PackageBox.Text = "testingweb";
+            // 
+            // InterfaceNameBox
+            // 
+            this.InterfaceNameBox.Location = new System.Drawing.Point(24, 170);
+            this.InterfaceNameBox.Name = "InterfaceNameBox";
+            this.InterfaceNameBox.Size = new System.Drawing.Size(350, 20);
+            this.InterfaceNameBox.TabIndex = 3;
+            this.InterfaceNameBox.Text = "ITest";
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(450, 34);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(136, 24);
+            this.button14.TabIndex = 4;
+            this.button14.Text = "select project folder";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(450, 80);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(136, 24);
+            this.button15.TabIndex = 5;
+            this.button15.Text = "select axis2 folder";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(24, 502);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(126, 41);
+            this.button16.TabIndex = 6;
+            this.button16.Text = "create webservice skeleton";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(510, 502);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(126, 41);
+            this.button17.TabIndex = 7;
+            this.button17.Text = "Update Ant server file";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(272, 502);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(126, 41);
+            this.button18.TabIndex = 8;
+            this.button18.Text = "Create webservice stub";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -642,6 +741,8 @@
             this.tabPage5.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -697,6 +798,15 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox destFolderCopy;
         private System.Windows.Forms.TextBox rootFolderCopy;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.TextBox InterfaceNameBox;
+        private System.Windows.Forms.TextBox PackageBox;
+        private System.Windows.Forms.TextBox AxisPathBox;
+        private System.Windows.Forms.TextBox ProjectPathBox;
     }
 }
 

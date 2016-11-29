@@ -3,12 +3,14 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
+using ConsoleApplication1;
 
 namespace WindowsFormsCmdController
 {
     public partial class Form1 : Form
     {
         private CmdShutdownController model = new CmdShutdownController();
+        
                
         public Form1()
         {
@@ -231,6 +233,49 @@ namespace WindowsFormsCmdController
         {
             CmdFileController.copyAllFilesAsync(CmdLoadController.rootSelectedPath, CmdLoadController.destSelectedPath);
             
+        }
+
+        //folder browser and locator for the project root path.
+        private void button14_Click(object sender, EventArgs e)
+        {
+            CmdLoadController.loadNewFolder();
+            string path = @"" + CmdLoadController.userSelectedPath;
+            CmdWebserviceController.rootSelectedPath = CmdLoadController.userSelectedPath;
+            ProjectPathBox.Text = CmdWebserviceController.rootSelectedPath;
+            //AutoClosingMessageBox.Show("Project folder have been found", "Caption", 5000);
+        }
+
+        // folder browser and locator for the axis2 path to where the ant jar.server file should be moved to.
+        private void button15_Click(object sender, EventArgs e)
+        {
+            CmdLoadController.loadNewFolder();
+            string path = @"" + CmdLoadController.userSelectedPath;
+            CmdWebserviceController.destSelectedPath = CmdLoadController.userSelectedPath;
+            AxisPathBox.Text = CmdWebserviceController.destSelectedPath;
+            //AutoClosingMessageBox.Show("axis2 folder have been found", "Caption", 5000);
+        }
+
+        //button handler for the create skeleton and wsdl file of the webservice controller
+        private void button16_Click(object sender, EventArgs e)
+        {
+            ConsoleApplication1.Program.Main();
+           // CmdWebserviceController.interfaceSelectedPath = InterfaceNameBox.Text;
+           // CmdWebserviceController.packageSelectedPath = PackageBox.Text;
+           // CmdWebserviceController.rootSelectedPath = ProjectPathBox.Text;
+           // Console.WriteLine(CmdWebserviceController.WebserviceFirstPartRunner());// @"" + ProjectPathBox.Text, PackageBox.Text, InterfaceNameBox.Text, @"" + AxisPathBox.Text));
+           // Console.ReadKey();
+            // Console.WriteLine(CmdWebserviceController.WebservicePartRunner(@"" + ProjectPathBox.Text, PackageBox.Text, InterfaceNameBox.Text, @"" + AxisPathBox.Text));
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            //MessageBox.Show(PackageBox.Text + " " + InterfaceNameBox.Text);
+            CmdWebserviceController.WebserviceSecondPartRunnerAsync(@"" + ProjectPathBox.Text, PackageBox.Text, InterfaceNameBox.Text, @"" + AxisPathBox.Text);
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            CmdWebserviceController.WebserviceAntFileUpdateRunnerAsync(@"" + ProjectPathBox.Text, PackageBox.Text, InterfaceNameBox.Text, @"" + AxisPathBox.Text);
         }
     }
 }
