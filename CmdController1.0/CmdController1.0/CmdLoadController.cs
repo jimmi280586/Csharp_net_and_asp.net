@@ -9,20 +9,12 @@ namespace CmdController1._0
 {
     public class CmdLoadController
     {
+        //fields
         private static string tbFilePath;
         private static string tbRootPath;
         private static string tbDestPath;
 
-        public static void loadNewFile()
-        {
-            OpenFileDialog fileDialog = new OpenFileDialog();
-            DialogResult result = fileDialog.ShowDialog();
-            if (result == DialogResult.OK)
-            {
-                userSelectedPath = fileDialog.FileName;
-            }
-        }
-
+        //standard getters and setters for the fields
         public static string userSelectedPath
         {
             get { return tbFilePath; }
@@ -39,13 +31,23 @@ namespace CmdController1._0
             set { tbDestPath = value; }
         }
 
-        public static void loadNewFolder()
+        public static void loadNewFile() // file loader method
         {
-            FolderBrowserDialog folderDialog = new FolderBrowserDialog();
-            DialogResult result = folderDialog.ShowDialog();
-            if (result == DialogResult.OK)
+            OpenFileDialog fileDialog = new OpenFileDialog(); //create new open file dialog 
+            DialogResult result = fileDialog.ShowDialog();//show the file dialog
+            if (result == DialogResult.OK)//if user clicks ok
             {
-                userSelectedPath = folderDialog.SelectedPath;
+                userSelectedPath = fileDialog.FileName;//set the field to the filepath
+            }
+        }
+
+        public static void loadNewFolder()//folder loader
+        {
+            FolderBrowserDialog folderDialog = new FolderBrowserDialog();//create new folder browser dialog
+            DialogResult result = folderDialog.ShowDialog();//show the folder dialog and let user select the folder
+            if (result == DialogResult.OK)//if user clicked ok
+            {
+                userSelectedPath = folderDialog.SelectedPath;//set field to folder path
             }
         }
     }

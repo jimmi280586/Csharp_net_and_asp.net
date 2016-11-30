@@ -12,15 +12,10 @@ namespace ConsoleApplication1
 {
     public class Program
     {
-        public static void Main()
+        Main
         {
-            AutoClosingMessageBox.Show("main in console", "caption", 5000);
-            CmdWebserviceController.WebserviceFirstPartRunnerAsync(@"G:\test\Testing", "testingweb", "ITest", @"K:\jar_files\axis2-1.7.3\repository\services");
-           // Console.ReadKey();
-           // CmdWebserviceController.WebserviceSecondPartRunnerAsync(@"G:\test\Testing", "testingweb", "ITest", @"K:\jar_files\axis2-1.7.3\repository\services");
-          //  Console.ReadKey();
-          //  CmdWebserviceController.WebserviceAntFileUpdateRunnerAsync(@"G:\test\Testing", "testingweb", "ITest", @"K:\jar_files\axis2-1.7.3\repository\services");
-          //  Console.ReadKey();
+            
+           
             
         }
         
